@@ -23,3 +23,8 @@
 | ------------- | ------------- | ------------- | ------------- | 
 | Content Cell  | Content Cell  | Content Cell  | Content Cell  | 
 | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+# Технические метрики
+| Размер хранения в разбивке  | Сетевой трафик | RPS в разбивке |
+| ------------- | ------------- | ------------- |
+| Content Cell  | Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  | Content Cell  |
