@@ -26,8 +26,9 @@
 | Тип нагрузки | Размер хранения в разбивке  | Сетевой трафик | RPS в разбивке |
 | ------------- | ------------- | ------------- | ------------- |
 | Средняя  | Content Cell  | Content Cell  | Content Cell  |
-
 География сайта: [2] 
+
+
 ![image](https://github.com/user-attachments/assets/ebf25d48-de9a-46a1-917a-e1b4e0fcae6f)
 
 # Источники 
