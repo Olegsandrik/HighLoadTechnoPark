@@ -26,6 +26,10 @@
 | Тип нагрузки | Размер хранения в разбивке  | Сетевой трафик | RPS в разбивке |
 | ------------- | ------------- | ------------- | ------------- |
 | Средняя  | Content Cell  | Content Cell  | Content Cell  |
+
+География сайта: [2] 
+![image](https://github.com/user-attachments/assets/ebf25d48-de9a-46a1-917a-e1b4e0fcae6f)
+
 # Источники 
 [1] https://web.archive.org/web/20231129184042/https://radar.yandex.ru/yandex?month=2022-05
-2) ...
+[2] https://web.archive.org/web/20181201005421/https://www.alexa.com/siteinfo/kinopoisk.ru 
