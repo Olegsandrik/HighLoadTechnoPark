@@ -21,13 +21,11 @@
 ## Продуктовые метрики
 | Тип нагрузки | Месячная аудитория  | Дневная аудитория | Размер хранилища | Кол-во действий |
 | ------------- | ------------- | ------------- | ------------- | ------------- | 
-| Пиковая | Content Cell  | Content Cell  | Content Cell  | Content Cell  | 
-| Средняя | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Средняя | 22 млн [1] | 2.5 млн [1] | Content Cell  | Content Cell  |
 ## Технические метрики
 | Тип нагрузки | Размер хранения в разбивке  | Сетевой трафик | RPS в разбивке |
 | ------------- | ------------- | ------------- | ------------- |
-| Пиковая  | Content Cell  | Content Cell  | Content Cell  |
 | Средняя  | Content Cell  | Content Cell  | Content Cell  |
 # Источники 
-1) ...
+[1] https://web.archive.org/web/20231129184042/https://radar.yandex.ru/yandex?month=2022-05
 2) ...
