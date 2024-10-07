@@ -262,6 +262,32 @@
 | file_size_kb  | int             |
 | file_url      | varchar         |
 
+
+### Схема связей
+
+* Films (1) <--- (M) Reviews
+* Films (1) <--- (M) Film_Genres (M) ---> (1) Genres
+* Films (1) <--- (M) Film_Actors (M) ---> (1) Actors
+* Users (1) <--- (M) Reviews
+* Users (1) <--- (1) Avatars
+* Actors (1) <--- (M) Photos
+
+### Расчет размера данных и нагрузки на чтение/запись
+
+| Таблица |	Размеры данных	| Нагрузка на чтение	| Нагрузка на запись |	Консистентность |
+|--------------| ----------------| --------------| ----------------| --------------|
+| Films | ~300-500 байт | | | |
+| Actors | ~250-400 байт | | | |
+| Users | ~300-500 байт | | | |
+| Reviews | ~400-600 байт | | | |
+| Geners | ~100-150 байт | | | |
+| Photos | ~150-250 байт | | | |
+| Avatars | ~150-250 байт | | | |
+| Film_Actors | ~10-16 байт | | | |
+| Film_Genres | ~8-12 байт | | | |
+
+
+
 # Источники 
 
 [1] https://web.archive.org/web/20181201005421/https://www.alexa.com/siteinfo/kinopoisk.ru 
