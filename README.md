@@ -189,25 +189,26 @@
 ## Схема Films
 | Поле          | Тип данных      |
 | --------------| ----------------|
-| film_id (PK) | int             |
+| film_id (PK)  | int             |
 | title         | varchar(30)     |
 | release_year  | date            |
 | duration      | int             |
 | rating        | int             |
+| description   | text            |
 
 ## Схема Actors
 | Поле          | Тип данных      |
 | --------------| ----------------|
-| actor_id (PK)| int             |
+| actor_id (PK) | int             |
 | name          | varchar(20)     |
 | birth_date    | date            |
 | bio           | text            |
-| photo_id (FK)| int             |
+| photo_id (FK) | int             |
 
 ## Схема Users
 | Поле          | Тип данных      |
 | --------------| ----------------|
-| user_id (PK) | int             |
+| user_id (PK)  | int             |
 | username      | varchar(30)     |
 | email         | varchar(50)     |
 | reg_date      | date            |
@@ -218,8 +219,8 @@
 | Поле          | Тип данных      |
 | --------------| ----------------|
 | review_id (PK)| int             |
-| film_id (FK) | int             |
-| user_id (FK) | int             |
+| film_id (FK)  | int             |
+| user_id (FK)  | int             |
 | rating        | int             |
 | comment       | text            |
 | review_date   | date            |
@@ -227,7 +228,7 @@
 ## Схема Genres
 | Поле          | Тип данных      |
 | --------------| ----------------|
-| genre_id (PK)| int             |
+| genre_id (PK) | int             |
 | name          | varchar         |
 
 ## Схема Film_Genres
