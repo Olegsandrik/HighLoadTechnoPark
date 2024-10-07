@@ -195,6 +195,7 @@
 | duration      | int             |
 | rating        | int             |
 | description   | text            |
+| video_url | varchar(255) |
 
 ## Схема Actors
 | Поле          | Тип данных      |
