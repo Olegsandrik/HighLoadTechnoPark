@@ -186,65 +186,80 @@
 
 # Логическая схема БД
 
-## Схема таблицы Films
+## Схема Films
 | Поле | Тип данных |
 | ------------- | ------------- |
-| film_id | int |
-| title | VARCHAR | 
-| realase_year | Date | 
-| duration | Int |
-| rating | Int |
+| film_id (PK) | int |
+| title | varchar(30) | 
+| realase_year | date | 
+| duration | int |
+| rating | int |
 
-
-## Схема таблицы Actors
+## Схема Actors
 | Поле | Тип данных |
 | ------------- | ------------- |
-| actor_id | Int |
-| name | 10 Гбит/c | 
-| birth_date | Date | 
+| actor_id (PK) | int |
+| name | varchar(20) | 
+| birth_date | date | 
 | bio | text |
 | photo_id | int |
 
-## Схема таблицы Users
+## Схема Users
 | Поле | Тип данных |
 | ------------- | ------------- |
-| user_id | int |
+| user_id (FK) | int |
 | username | varchar(30) | 
-| email | varchar | 
+| email | varchar(50) | 
 | reg_date | date |
 | is_sub | bool |
 | sub_date | date |
 
-## Схема таблицы Reviews
+## Схема Reviews
 | Поле | Тип данных |
 | ------------- | ------------- |
-| review_id  | int |
-| film_id  | int | 
-| user_id | int | 
+| review_id (PK) | int |
+| film_id (FK) | int | 
+| user_id (FK) | int | 
 | rating | int |
 | comment | text |
 | review_date | date |
 
-## Схема таблицы Geners
+## Схема Geners
 | Поле | Тип данных |
 | ------------- | ------------- |
 | gener_id | int |
 | name | varchar | 
 
-## Схема таблицы Film_geners
+## Схема Film_geners
 | Поле | Тип данных |
 | ------------- | ------------- |
-| film_gener_id | int |
-| film_id | int |
-| geners_id | int | 
+| film_gener_id (PK) | int |
+| film_id (FK) | int |
+| gener_id (FK) | int | 
 
-## Схема таблицы Film_actors
+## Схема Film_actors
 | Поле | Тип данных |
 | ------------- | ------------- |
-| film_actor_id | int |
-| film_id | int |
-| actor_id | int | 
+| film_actor_id (PK) | int |
+| film_id (FK) | int |
+| actor_id (FK) | int | 
 | role | varchar |
+
+## Схема Avatars
+| Поле | Тип данных |
+| ------------- | ------------- |
+| avatar_id (PK) | int |
+| user_id (FK) | int | 
+| file_size_kb | int | 
+| file_url | file |
+
+## Схема Photos
+| Поле | Тип данных |
+| ------------- | ------------- |
+| photo_id (PK) | int |
+| actor_id (FK) | int | 
+| file_size_gb | int | 
+| file_url | file |
 
 # Источники 
 
