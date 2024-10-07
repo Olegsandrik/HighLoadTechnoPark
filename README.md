@@ -187,79 +187,79 @@
 # Логическая схема БД
 
 ## Схема Films
-| Поле | Тип данных |
-| ------------- | ------------- |
-| film_id (PK) | int |
-| title | varchar(30) | 
-| realase_year | date | 
-| duration | int |
-| rating | int |
+| Поле          | Тип данных      |
+| --------------| ----------------|
+| film_id (PK) | int             |
+| title         | varchar(30)     |
+| release_year  | date            |
+| duration      | int             |
+| rating        | int             |
 
 ## Схема Actors
-| Поле | Тип данных |
-| ------------- | ------------- |
-| actor_id (PK) | int |
-| name | varchar(20) | 
-| birth_date | date | 
-| bio | text |
-| photo_id | int |
+| Поле          | Тип данных      |
+| --------------| ----------------|
+| actor_id (PK)| int             |
+| name          | varchar(20)     |
+| birth_date    | date            |
+| bio           | text            |
+| photo_id (FK)| int             |
 
 ## Схема Users
-| Поле | Тип данных |
-| ------------- | ------------- |
-| user_id (FK) | int |
-| username | varchar(30) | 
-| email | varchar(50) | 
-| reg_date | date |
-| is_sub | bool |
-| sub_date | date |
+| Поле          | Тип данных      |
+| --------------| ----------------|
+| user_id (PK) | int             |
+| username      | varchar(30)     |
+| email         | varchar(50)     |
+| reg_date      | date            |
+| is_sub        | bool            |
+| sub_date      | date            |
 
 ## Схема Reviews
-| Поле | Тип данных |
-| ------------- | ------------- |
-| review_id (PK) | int |
-| film_id (FK) | int | 
-| user_id (FK) | int | 
-| rating | int |
-| comment | text |
-| review_date | date |
+| Поле          | Тип данных      |
+| --------------| ----------------|
+| review_id (PK)| int             |
+| film_id (FK) | int             |
+| user_id (FK) | int             |
+| rating        | int             |
+| comment       | text            |
+| review_date   | date            |
 
-## Схема Geners
-| Поле | Тип данных |
-| ------------- | ------------- |
-| gener_id | int |
-| name | varchar | 
+## Схема Genres
+| Поле          | Тип данных      |
+| --------------| ----------------|
+| genre_id (PK)| int             |
+| name          | varchar         |
 
-## Схема Film_geners
-| Поле | Тип данных |
-| ------------- | ------------- |
-| film_gener_id (PK) | int |
-| film_id (FK) | int |
-| gener_id (FK) | int | 
+## Схема Film_Genres
+| Поле          | Тип данных      |
+| --------------| ----------------|
+| film_genre_id (PK)| int         |
+| film_id (FK)  | int            |
+| genre_id (FK) | int            |
 
-## Схема Film_actors
-| Поле | Тип данных |
-| ------------- | ------------- |
-| film_actor_id (PK) | int |
-| film_id (FK) | int |
-| actor_id (FK) | int | 
-| role | varchar |
+## Схема Film_Actors
+| Поле          | Тип данных      |
+| --------------| ----------------|
+| film_actor_id (PK)| int         |
+| film_id (FK)  | int            |
+| actor_id (FK) | int            |
+| role          | varchar         |
 
 ## Схема Avatars
-| Поле | Тип данных |
-| ------------- | ------------- |
-| avatar_id (PK) | int |
-| user_id (FK) | int | 
-| file_size_kb | int | 
-| file_url | file |
+| Поле          | Тип данных      |
+| --------------| ----------------|
+| avatar_id (PK)| int             |
+| user_id (FK)  | int             |
+| file_size_kb  | int             |
+| file_url      | varchar         |
 
 ## Схема Photos
-| Поле | Тип данных |
-| ------------- | ------------- |
-| photo_id (PK) | int |
-| actor_id (FK) | int | 
-| file_size_gb | int | 
-| file_url | file |
+| Поле          | Тип данных      |
+| --------------| ----------------|
+| photo_id (PK)| int             |
+| actor_id (FK)| int             |
+| file_size_kb  | int             |
+| file_url      | varchar         |
 
 # Источники 
 
