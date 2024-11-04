@@ -516,6 +516,7 @@ DataStax Proxy и Odyssey улучшат масштабируемость все
 
 ### Схема взаимодействия сервисов
 
+![image](https://github.com/user-attachments/assets/fff12253-77c5-4b6a-8b9f-4efdb02906ae)
 
 
 # Источники 
