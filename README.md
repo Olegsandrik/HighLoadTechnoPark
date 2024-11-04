@@ -197,7 +197,7 @@ Kubernetes автоматически выполняет рутинные дей
 
 # Логическая схема БД
 
-![image](https://github.com/user-attachments/assets/8e978be5-f399-44a9-987e-71caf6ba79a3)
+![image](https://github.com/user-attachments/assets/fa822980-2a2d-4186-a67b-a46e08c9d5be)
 
 ### Схема связей
 
