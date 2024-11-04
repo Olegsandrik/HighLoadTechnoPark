@@ -245,7 +245,7 @@ Prometheus тесно интегрируется с Kubernetes, что дела�
 
 ### Физическая схема СУБД
 
-![image](https://github.com/user-attachments/assets/37102bbf-6dc3-499e-b158-c8b03db9e157)
+![image](https://github.com/user-attachments/assets/c9bdea2a-4d81-4afe-9cb9-e9a573f6bf38)
 
 В поле genres Films записаны id соответсвующих жарнов
 ```
